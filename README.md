@@ -5,12 +5,12 @@ Excel dashboard analyzing IBM HR Attrition dataset
 
 ## Project Overview
 This project analyzes the IBM HR Analytics Employee Attrition dataset (1470 employees) to identify key factors contributing to employee turnover.  
-An intercative Excel dashboard was built to evaluate attrition trends across salary, departments, job role tenure and overtime patterns.
+An interactive Excel dashboard was built to evaluate attrition trends across salary, departments, job role, tenure and overtime patterns.
 
 Key metrics calculated:
 - Overall Attrition Rate: 16%
 - Total employees: 1470
-- Highest Risk Segment: Sales employee with <2 years tenure
+- Highest Risk Segment: Sales employees with <2 years tenure
 - Average years at Company: 7 years
   
 ---
@@ -26,7 +26,7 @@ Key metrics calculated:
 ---
 
 ## Key Insights
-- Employees with less than 2 years tenure show significantly higher attrition rate comapred to long tenured employees.
+- Employees with less than 2 years tenure show significantly higher attrition rate compared to long tenured employees.
 - Attrition trends vary across income levels and experience bands.
 - Identifying high-risk segments supports proactive retention planning.
 - Sales department emerges as the highest risk segment.
