@@ -1,74 +1,55 @@
-# ibm-hr-attrition-dashboard
-Excel dashboard analyzing IBM HR Attrition dataset
+IBM HR Attrition Analysis — Excel Dashboard
+An interactive Excel dashboard analyzing employee attrition patterns across 1,470 employees using the IBM HR Analytics dataset from Kaggle.
 
-# IBM HR Attrition Dashboard
+![Dashboard Top](dashboard_top.png.png)
+![Dashboard Bottom](dashboard_bottom.png.png)
 
-## Project Overview
-This project analyzes the IBM HR Analytics Employee Attrition dataset (1470 employees) to identify key factors contributing to employee turnover.  
-An interactive Excel dashboard was built to evaluate attrition trends across salary, departments, job role, tenure and overtime patterns.
+Key Business Findings
+MetricValueTotal Employees1,470Total Attrition237Attrition Rate16.1%Average Salary$6,503Average Years at Company7Highest Risk SegmentSales
+Top Insights:
 
-Key metrics calculated:
-- Overall Attrition Rate: 16%
-- Total employees: 1470
-- Highest Risk Segment: Sales employees with <2 years tenure
-- Average years at Company: 7 years
-  
----
+Sales department has the highest attrition rate (21%), indicating potential workload or management concerns
+Overtime employees are significantly more likely to leave compared to non-overtime employees
+Mid-income band employees exhibit the highest attrition concentration
+Average tenure of leaving employees is below the company average, suggesting early stage dissatisfaction
 
-## Dashboard KPIs
-- Total Employees
-- Total Attrition
-- Attrition Rate (%)
-- Average Salary
-- Average Years at Company
-- Highest Risk Segment
 
----
+Dashboard Features
+KPI Cards
+Six summary cards at the top of the dashboard displaying the most critical HR metrics at a glance — total headcount, attrition count, attrition rate, average salary, average tenure, and highest risk segment.
+Interactive Slicers
+The dashboard can be filtered dynamically by:
 
-## Key Insights
-- Employees with less than 2 years tenure show significantly higher attrition rate compared to long tenured employees.
-- Attrition trends vary across income levels and experience bands.
-- Identifying high-risk segments supports proactive retention planning.
-- Sales department emerges as the highest risk segment.
-- Overtime employees demonstrate noticeably higher turnover patterns.
+Gender (Male / Female)
+Department (Human Resources / Research & Development / Sales)
+Job Role (Laboratory Technician, Research Scientist, Sales Executive, and more)
 
----
+All charts update automatically when slicers are applied.
 
-## Tools & Techniques Used
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers for interactivity
-- KPI Cards
-- Data Cleaning and Transformation
+Charts Included
+ChartTypeInsightAttrition by DepartmentHorizontal BarSales leads attrition across all departmentsAttrition by OvertimeClustered ColumnOvertime employees leave at a much higher rateAttrition by Job SatisfactionClustered ColumnLow satisfaction correlates strongly with attritionAttrition by Income BandClustered ColumnMid-income band shows highest attrition volumeAttrition by Tenure BandHorizontal BarEarly stage employees show the highest attrition risk
 
----
+Workbook Structure
+IBM_HR_Attrition_Dashboard.xlsx
+│
+├── HR Dashboard     — Interactive dashboard with KPI cards, charts and slicers
+├── Raw_Data         — Original IBM HR dataset (1,470 rows)
+└── Pivot_Backend    — Pivot tables powering all dashboard charts
 
-## Business Value
-This dashboard enables:
-- Monitoring of employee turnover trends
-- Identification of high-risk segments
-- Data-driven retention strategy development
-- Improved workforce planning decisions
+Excel Skills Demonstrated
 
----
+Pivot Tables for data aggregation and summarization
+Pivot Charts (Clustered Column, Horizontal Bar)
+Slicers connected to multiple charts for dynamic filtering
+KPI summary cards using cell formatting
+IF formulas for custom grouping (Tenure Band classification)
+Dashboard layout and design
 
-## Dataset
-IBM HR Analytics Employee Attrition Dataset (Kaggle)
 
----
+Dataset Source
+IBM HR Analytics Employee Attrition & Performance — Kaggle
 
-## Skills Demonstrated
-- Data Cleaning and Transformation
-- KPI Calculation(Attrition rate, Average)
-- Pivot tables and Pivot charts
-- Dashboard design
-- Silcer-based interactivity
-- Business Insight Generation
-- Basic Data Visualisation Principles
-- 
----
+About
+I'm Spandana Perni, an aspiring business analyst with a background in recruitment coordination, transitioning into data analytics. This project demonstrates practical Excel dashboard skills applied to a real-world HR dataset — the kind of analysis used in people analytics, HR operations, and business performance roles.
+Open to entry-level to mid-level analyst opportunities.
 
-## Author
-Spandana Perni  
-Aspiring Business Analyst | Excel Dashboarding | Data Analytics
