@@ -49,5 +49,5 @@ Dashboard layout and design
 Dataset Source
 IBM HR Analytics Employee Attrition & Performance — Kaggle
 
-About
+About-
 I'm Spandana Perni, a Recruitment Operations Analyst at Randstad India supporting Microsoft's US hiring operations. This project demonstrates Excel dashboard skills applied to HR analytics and workforce planning.
