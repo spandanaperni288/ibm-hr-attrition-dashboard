@@ -50,6 +50,5 @@ Dataset Source
 IBM HR Analytics Employee Attrition & Performance — Kaggle
 
 About
-I'm Spandana Perni, an aspiring business analyst with a background in recruitment coordination, transitioning into data analytics. This project demonstrates practical Excel dashboard skills applied to a real-world HR dataset — the kind of analysis used in people analytics, HR operations, and business performance roles.
-Open to entry-level to mid-level analyst opportunities.
+I'm Spandana Perni, a Recruitment Operations Analyst at Randstad India supporting Microsoft's US hiring operations. This project demonstrates Excel dashboard skills applied to HR analytics and workforce planning.unities.
 
